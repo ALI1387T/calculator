@@ -88,8 +88,3 @@ body {
 .form input[type="number"] {
     width: 200px;
 }
-
-#guess {
-    margin-left: 25%;
-    margin-bottom: 300px;
-}
