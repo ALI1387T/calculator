@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onkeydown="btnk(event.key)">
+    <div id="btn">
+        <input type="text" value="0" id="display" disabled>
+        <div>
+            <input class="d1 first" id="AC" type="button" value="AC" onclick="AC()">
+            <input class="d1" type="button" value="C" id="C" onclick="C()">
+            <input class="d1 slash" type="button" value="÷" id="/" onclick="btn(value)">
+        </div>
+        <div>
+            <input class="d2 first" type="button" value="1" onclick="btn(value)">
+            <input class="d2" type="button" value="2" onclick="btn(value)">
+            <input class="d2 end" type="button" value="3" onclick="btn(value)">
+            <input class="d2 end" type="button" value="×" id="*" onclick="btn(value)">
+        </div>
+        <div>
+            <input class="d3 first" type="button" value="4" onclick="btn(value)">
+            <input class="d3" type="button" value="5" onclick="btn(value)">
+            <input class="d3 end" type="button" value="6" onclick="btn(value)">
+            <input class="d3 end" type="button" value="+" onclick="btn(value)">
+
+        </div>
+        <div>
+            <input class="d4 first" type="button" value="7" onclick="btn(value)">
+            <input class="d4" type="button" value="8" onclick="btn(value)">
+            <input class="d4 end" type="button" value="9" onclick="btn(value)">
+            <input class="d4 end" type="button" value="-" onclick="btn(value)">
+        </div>
+        <div>
+            <input class="d5 first" type="button" value="." onclick="btn(value)">
+            <input class="d5" type="button" value="0" onclick="btn(value)">
+            <input class="d5" id="sum" type="button" value="=" onclick="sum()">
+        </div>
+    </div>
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="guess">
+        <h1>Number guessing game</h1>
+
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell
+            you
+            if your guess was too high or too low.</p>
+
+        <div class="form">
+            <label for="guessField">Enter a guess: </label>
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" id="Submit_guess" class="guessSubmit">
+            <input type="submit" value="start game" id="Submit_guess1" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <h2 class="guesses" id="geuss"><big>please enter your guess</big></h2>
+            <h3 class="lastResult"><strong>forsat : </strong> <big>10</big></h3>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

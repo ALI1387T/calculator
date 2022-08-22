@@ -1,0 +1,95 @@
+* {
+    font-size: 100;
+}
+
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+#btn {
+    background-color: rgba(46, 39, 39, 0.562);
+    margin: 225px 600px;
+    border-bottom: 0px solid rgba(46, 39, 39, 0);
+}
+
+#display {
+    font-size: 25px;
+    color: white;
+    background-color: rgba(46, 39, 39, 0.541);
+    margin-left: 4px;
+    margin-top: 5px;
+    height: 65px;
+    width: 350px;
+}
+
+.first {
+    margin-left: 4px;
+}
+
+#C {
+    background-color: red;
+}
+
+#C:hover {
+    background-color: #df7f7f;
+}
+
+.d1:hover,
+.d2:hover,
+.d3:hover,
+.d4:hover,
+.d5:hover {
+    background-color: #a2aaaf;
+}
+
+.d1,
+.d2,
+.d3,
+.d4,
+.d5 {
+    color: white;
+    background-color: rgba(46, 39, 39, 0.938);
+    font-size: 25px;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.d1 {
+    width: 87.5px;
+    height: 70px;
+}
+
+.d2,
+.d3,
+.d4,
+.d5 {
+    width: 86px;
+    height: 70px;
+}
+
+#AC {
+    width: 175px;
+    height: 70px;
+}
+
+#sum {
+    width: 178px;
+    height: 70px;
+}
+
+.end {
+    width: 87px;
+}
+
+.slash {
+    font-size: 26px;
+}
+
+.form input[type="number"] {
+    width: 200px;
+}
+
+#guess {
+    margin-left: 25%;
+    margin-bottom: 300px;
+}
